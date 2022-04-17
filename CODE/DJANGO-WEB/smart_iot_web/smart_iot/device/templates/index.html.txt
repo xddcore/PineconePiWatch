@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PineconePi Watch Data Page</title>
+    </head>
+    <body>
+	<h1>PineconePi Watch Data Page</h1>
+	<h2>Chengsen Dong - xddcore - 2021/03/28</h2>
+    <table border="1">
+        <form action="/device/" method="post">
+            {% csrf_token %}
+            {%for line1 in form1%}
+            <P>
+                <label >{{line1.data}}</label>
+				<label >|The Refresh Time:</label>
+                <label >{{line1.name}}</label>
+            </P>
+	    {% endfor %}
+    </body>
+ 
+</html>
