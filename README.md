@@ -10,7 +10,7 @@
 **PineconePi Watch** ESP32+STC8；6轴陀螺仪+心率+体温；MQTT；双层0603 SMD电路板；两块电路板FPC连接；1.44英寸OLED显示屏；拨动开关；IP5306+500maH可充电锂电池；Type-C可二次开发；
 
 # 项目特性
-![项目硬件框图](./img/watch-hardware.jpg)
+![项目硬件框图](./img/watch-hardware.png)
 
 为了更加直观的展示项目的硬件结构，将项目硬件框图展示如上。现在将对硬件框图进行详细的介绍：
 1.	本设备硬件由3个微控制器，5个核心组成。其中ESP32与STC8协处理器通过FPC排线连接。它们使用IIC通信协议进行通信和数据传输。
@@ -23,4 +23,4 @@
 
 # 软件流程图(充分利用ESP32双核+ULP低功耗小核）
 
-![软件流程图](./img/watch-software.jpg)
+![软件流程图](./img/watch-software.png)
