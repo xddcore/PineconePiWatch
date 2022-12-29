@@ -1,3 +1,11 @@
+<!--
+ * @Author: Chengsen Dong 1034029664@qq.com
+ * @Date: 2022-12-29 07:08:10
+ * @LastEditors: Chengsen Dong 1034029664@qq.com
+ * @LastEditTime: 2022-12-29 07:17:54
+ * @FilePath: /undefined/Users/xdd/git_warehouse/PineconePiWatch/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # PineconePi Watch:一个基于ESP32+STC8的物联网手表
 ## 作者:xddcore(Chengsen Dong)|大二课程系统设计
 ## Email:1034029664@qq.com
@@ -5,6 +13,7 @@
 ## Version:1.2
 ## Date:20/04/2021
 ## 效果视频:https://www.bilibili.com/video/BV1AA411V7fJ?spm_id_from=333.999.0.0
+## 中期视频(ppt讲解):https://www.bilibili.com/video/BV1XT4y1P718/?share_source=copy_web&vd_source=e0a08236a93074f4e5ffc9911edd0047
 
 # 项目简介
 **PineconePi Watch** ESP32+STC8；6轴陀螺仪+心率+体温；MQTT；双层0603 SMD电路板；两块电路板FPC连接；1.44英寸OLED显示屏；拨动开关；IP5306+500maH可充电锂电池；Type-C可二次开发；
